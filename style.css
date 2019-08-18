@@ -184,9 +184,9 @@ p {
     float: left;
 }
 
-
-
-
+.container{
+    flex-wrap: wrap ;
+  }
 
 
 .contact-info{

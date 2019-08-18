@@ -2,95 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
 
 
-        <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light" id = 'navbar'>
-                        <a class="navbar-brand" href="#">Darioush</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                              <a class="nav-link" href='index.html'
-                              tabindex="-1" aria-disabled="true">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="portfolio.html" >Portfolio</a>
-                            </li>
-                          </ul>
-                          <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                          </form>
-                        </div>
-                      </nav>
-        </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id='navbar'>
+      <a class="navbar-brand" href="#">Darioush</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href='index.html' tabindex="-1" aria-disabled="true">Home <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
 
 
 
-    <div class='container'>
-        <Section id="box1">
-            <h2>Portfolio</h2>
-            <hr>
-            <div class="photo-labels">
+  <div class='container'>
 
 
-                <div id="portfolio-photos1">
-                    <img src="images/look at my tech.jpg" alt="no tech" width="206px" ;>
-                    <h3 class="text-on-top">Hangman</h3>
-                </div>
 
-                <div id="portfolio-photos2">
-                    <img src="images/look at my tech.jpg" alt="IPAD!" width="206px" ;>
-                    <h3 class="text-on-top">Trivia Game</h3>
-                </div>
 
-                <div id="portfolio-photos3">
-                    <img src="images/none of this is plugged in.jpg" alt="dj dude" width="206px" ;>
-                    <h3 class="text-on-top">RPG Game</h3>
-                </div>
 
-                <div id="portfolio-photos4">
-                    <img src="images/yo you like wes anderson.jpg" alt="soooo" width="206px" ;>
-                    <h3 class="text-on-top">Rutgers Info Widget</h3>
-                </div>
+    <h2>Portfolio</h2>
+    <hr>
+    <div class="row">
 
-                <div id="portfolio-photos5">
-                    <img src="images/beatiful creatures.jpg" alt="no tech" width="206px" ;>
-                    <h3 class="text-on-top">Rock Paper Scissors</h3>
-                </div>
 
-            </div>
+      <div class='col' id="portfolio-photos1">
+        <img src="images/look at my tech.jpg" alt="no tech" width="206px" ;>
+        <!-- <h3 class="text-on-top">Hangman</h3> -->
+      </div>
 
-        </Section>
+      <div class='col' id="portfolio-photos2">
+        <img src="images/look at my tech.jpg" alt="IPAD!" width="206px" ;>
+        <!-- <h3 class="text-on-top">Trivia Game</h3> -->
+      </div>
 
-        <div class=push> </div>
-    </div>
-</div>
+      <div class='col' id="portfolio-photos3">
+        <img src="images/none of this is plugged in.jpg" alt="dj dude" width="206px" ;>
+        <!-- <h3 class="text-on-top">RPG Game</h3> -->
+      </div>
 
-    <footer class='foot mt-auto py-3'>
-        Copy Write
-    </footer>
+      <div class='col' id="portfolio-photos4">
+        <img src="images/yo you like wes anderson.jpg" alt="soooo" width="206px" ;>
+        <!-- <h3 class="text-on-top">Rutgers Info Widget</h3> -->
+      </div>
+
+      <div class='col' id="portfolio-photos5">
+        <img src="images/beatiful creatures.jpg" alt="no tech" width="206px" ;>
+        <!-- <h3 class="text-on-top">Rock Paper Scissors</h3> -->
+      </div>
+
 
 
     </div>
+
+    <div class=push> </div>
+  </div>
+  </div>
+
+  <footer class='foot mt-auto py-3'>
+    Copy Write
+  </footer>
+
+
+  </div>
 
 
 </body>
