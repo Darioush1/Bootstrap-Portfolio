@@ -7,8 +7,12 @@
     background-color: #777777;
 }
 
+#navbar{
+    background-color: #caebf2
+}
+
 header {
-    background-color: #ffffff;
+    background-color: #caebf2;
     width: 100%;
     padding: 0%;
     margin: 0;
@@ -56,7 +60,9 @@ h4.class {
     top: 6px;
     position: relative;
 }
-
+.constainer{
+    display: flex;
+}
 #container{
     background-color: #777777;
     margin-left: 0;
@@ -71,14 +77,14 @@ h4.class {
 
 
 footer{
-    border-top:20px solid #4aaaa5; 
+    /* border-top:20px solid #4aaaa5; 
    bottom: 0;
     padding: 10px;
-    width: 100%;
-    background-color: #666666;
+    width: 100%;*/
+    background-color: #caebf2;
     color: #838383;
     text-align: center;
-    position: absolute;
+    /* position: absolute; */
 }
 
 
@@ -87,7 +93,7 @@ footer{
     text-align: center;
     color: white;
   }
-.portfolio-photos1 { 
+#portfolio-photos1 { 
     position: relative;
     text-align: center;
     color: white;
@@ -95,7 +101,7 @@ footer{
     margin: 20px;
 }
 
-.portfolio-photos2 { 
+#portfolio-photos2 { 
     position: relative;
     text-align: center;
     color: white;
@@ -103,7 +109,7 @@ footer{
     margin: 20px;
 }
 
-.portfolio-photos3 { 
+#portfolio-photos3 { 
     position: relative;
     text-align: center;
     color: white;
@@ -111,7 +117,7 @@ footer{
     margin: 20px;
 }
 
-.portfolio-photos4 { 
+#portfolio-photos4 { 
     position: relative;
     text-align: center;
     color: white;
@@ -119,7 +125,7 @@ footer{
     margin: 20px;
 }
 
-.portfolio-photos5 { 
+#portfolio-photos5 { 
     position: relative;
     text-align: center;
     color: white;
