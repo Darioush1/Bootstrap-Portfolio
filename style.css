@@ -16,7 +16,7 @@ header {
     box-sizing: border-box;
     }
 
-h1 {
+#myCodeHeader {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
@@ -27,7 +27,7 @@ h1 {
    
 }
 
-header > .header1 {
+header > #header1 {
     background-color:#ffffff;
     margin: 0 auto;
     width: 960px;
@@ -37,12 +37,19 @@ header > .header1 {
 
 h1,
 h4,
-a {
+#links {
     display: inline-block;
 }
 
-a{
+#links{
     padding: 0 10px;
+}
+
+.form-inline{
+    float: right;
+    margin-top: 10px;
+    padding: 0 10px;
+    display: inline-block
 }
 h4.class {
     float: right;
@@ -50,7 +57,7 @@ h4.class {
     position: relative;
 }
 
-.container{
+#container{
     background-color: #777777;
     margin-left: 0;
     margin-right: 0;
@@ -59,6 +66,8 @@ h4.class {
     margin-bottom:0;
     position: relative;
 }
+
+
 
 
 footer{
